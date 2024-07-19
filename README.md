@@ -1,5 +1,8 @@
 ## Questoes Escritas
 
+# A parte do front simplismente abra o arquivo html e aperte F12, ABRINDO O CONSOLE DO NAVEGADOR.
+# O back com o php instalado em seu computador abra o terminaL e use o comando EX: "php 15.php"
+
 3- O codigo mostrara a data e a hora do dia em que foi execultado.
 Por exemplo se for execultado agora no momento que estou realizando seria: 
 A reunião será Today at 2:30 PM - 17/07/2024
