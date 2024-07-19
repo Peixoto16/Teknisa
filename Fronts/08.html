@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08</title>
+</head>
+<body>
+    
+    <img src="img/08a.png" width="60%" height="100%" /><br>
+    <h3>b) Ainda utilizando o mesmo array faça uma implementação para inserir um elemento no início do array com o nome ‘C#’</h3><br>
+    <img src="img/08c.png" width="60%" height="100%" />
+    <h3>Precione F12 e clique em console, para ver o codigo</h3>
+
+    <script>
+        let languages = ["Java Script", "PHP", "Phyton", "Cobol"];
+
+        languages.push('Java');
+
+        console.log(languages);
+
+        languages.unshift('C#');
+
+        console.log(languages);
+
+        let index = languages.indexOf("Cobol");
+
+        if (index !== -1) {
+            
+            languages.splice(index, 1);
+        }
+
+        console.log(languages);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campeonato Mineiro de Futebol</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 40%;
+            font-size: 13px;
+        }
+        thead {
+            background-color: #006400;
+            color: white;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th.classificacao, td.classificacao {
+            width: 5%;
+        }
+        th.clube, td.clube {
+            width: 42%;
+        }
+        th.pts, td.pts, th.sg, td.sg {
+            width: 25%;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+        tbody tr:nth-child(even) {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="img/01.png" width="50%" height="100%" />
+    <br>
+
+<h2>Campeonato Mineiro de Futebol</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th class="classificacao">Classificação</th>
+            <th class="clube">Clube</th>
+            <th class="pts">Pts</th>
+            <th class="sg">SG</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="classificacao">1</td>
+            <td class="clube">Tombense</td>
+            <td class="pts">27</td>
+            <td class="sg">16</td>
+        </tr>
+        <tr>
+            <td class="classificacao">2</td>
+            <td class="clube">Caldense</td>
+            <td class="pts">22</td>
+            <td class="sg">8</td>
+        </tr>
+        <tr>
+            <td class="classificacao">3</td>
+            <td class="clube">Uberlândia</td>
+            <td class="pts">20</td>
+            <td class="sg">7</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
