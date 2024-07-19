@@ -6,18 +6,17 @@ function getFornecedor() {
 
     try {
       
-        $pdo = new PDO('seu_dsn', 'seu_usuario', 'sua_senha');
+        $pdo = new PDO('dsn', 'usuario', 'senha'); // Coloque aqui seus dados reais
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-       
         $pdo->exec($query);
         echo "Registro inserido com sucesso!";
     } catch (PDOException $e) {
        
         if ($e->getCode() == '23000') {
-            echo "Erro: Constraint unica violada. O registro ja existe.";
+            echo "O registro ja existe.";
         } else {
-            echo "Erro ao inserir registro: " . $e->getMessage();
+            echo "Registro com erro: " . $e->getMessage();
         }
     }
 }
